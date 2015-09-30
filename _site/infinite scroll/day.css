@@ -1,0 +1,39 @@
+body{
+	text-align: center;
+}
+ul{
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+	margin: 0;
+}
+#bangalore,#delhi{
+	display: inline-block;
+	vertical-align: top;
+    width: 450px;
+}
+.weatherDiv{
+	max-height: 400px;
+}
+.weatherBtn{
+	    margin-top: 70px;
+}
+li:first-child{
+	border-top: 0;
+}
+li{
+	padding: 30px;
+	background-color: #F5F5F5;
+	border-top: 1px solid #c3c3c3;
+}
+.main{
+    width: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #c3c3c3;
+}
+.hidden{
+	display: none;
+}

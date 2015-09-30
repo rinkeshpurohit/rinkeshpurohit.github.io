@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ajax</title>
+		<link rel="stylesheet" type="text/css" href="day.css">
+	</head>
+	<body>
+		<script id="template" type="text/x-handlebars-template">
+		   <li>{{city}},Temprature = {{temp}}</li>
+		</script>
+		<h3>Click on buttons for a couple of times till the scroll is active.</h3>
+		<div id="bangalore">
+			<input type="submit" class="weatherBtn" value="Get Weather"/>
+			<div class="main hidden">
+				<div class="weatherDiv">
+					<ul class="tasks">
+					</ul>
+				</div>	
+			</div>
+		</div>
+		<div id="delhi">
+			<input type="submit" class="weatherBtn" value="Get Weather"/>
+			<div class="main hidden">
+				<div class="weatherDiv">
+					<ul class="tasks">
+					</ul>
+				</div>	
+			</div>
+		</div>
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/handlebars.js"></script>
+		<script src="./js/j.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
