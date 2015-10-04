@@ -21,8 +21,8 @@ button{
 }
 .peakingCat{
     position: absolute;
-    top: 20px;
-    right: -60px;
+    top: 30px;
+    right: 0px;
     width: 200px;
     height: 70px;
 }
@@ -36,10 +36,11 @@ button{
 }
 .peakingCat img{
     position: absolute;
+    right: 0px;
 }
 .peakingCat:hover{
-    top: 30px;
-    right: -40px;
+    top: 50px;
+    right: 0px;
     transition: 0.3s ease-in;
     z-index: 9999;
     background-color: white;
@@ -47,7 +48,8 @@ button{
 }
 .peakingCat:hover a{
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 24px;
+    margin-left: 20px;
 }
 .loader{
     position: fixed;
