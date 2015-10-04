@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rinkesh Purohit</title>
-    <description>Hi I&#39;m Rinkesh Purohit from Bangalore. B.Tech. (C.S.E.) 2015 passout.&lt;br&gt; My skills are HTML, CSS, Sass, JavaScript, JQuery, Bootstrap.
+    <description>Hi I&#39;m Rinkesh Purohit from Bangalore.&lt;br&gt;B.Tech. (C.S.E.) 2015 passout.&lt;br&gt; My skills are HTML, CSS, Sass, JavaScript, JQuery, Bootstrap.
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Oct 2015 22:56:19 +0530</pubDate>
-    <lastBuildDate>Sun, 04 Oct 2015 22:56:19 +0530</lastBuildDate>
+    <pubDate>Sun, 04 Oct 2015 23:19:40 +0530</pubDate>
+    <lastBuildDate>Sun, 04 Oct 2015 23:19:40 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
