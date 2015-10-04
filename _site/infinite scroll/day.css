@@ -1,57 +1,27 @@
 body{
-	text-align: center;
-}
-.peakingCat{
-    position: absolute;
-    top: -25px;
-    right: 0px;
-    width: 200px;
-    height: 70px;
-}
-.peakingCat p{
-    display: inline-block;
-    margin-top: 38px;
-}
-.peakingCat a{
-    text-decoration: none;
-    transition: 0.3s ease-in;
-}
-.peakingCat img{
-    position: absolute;
-}
-.peakingCat:hover{
-    top: 0;
-    right: 3px;
-    transition: 0.3s ease-in;
-}
-.peakingCat:hover a{
-    display: inline-block;
-    margin-top: 40px;
+    text-align: center;
 }
 ul{
-	list-style: none;
-	text-align: center;
-	padding-left: 0;
-	margin: 0;
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin: 0;
 }
 #bangalore,#delhi{
-	display: inline-block;
-	vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
     width: 450px;
 }
 .weatherDiv{
-	max-height: 400px;
-}
-.weatherBtn{
-	    margin-top: 70px;
+    max-height: 400px;
 }
 li:first-child{
-	border-top: 0;
+    border-top: 0;
 }
 li{
-	padding: 30px;
-	background-color: #F5F5F5;
-	border-top: 1px solid #c3c3c3;
+    padding: 30px;
+    background-color: #F5F5F5;
+    border-top: 1px solid #c3c3c3;
 }
 .main{
     width: 400px;
@@ -60,7 +30,4 @@ li{
     margin: auto;
     margin-top: 20px;
     border: 1px solid #c3c3c3;
-}
-.hidden{
-	display: none;
 }
