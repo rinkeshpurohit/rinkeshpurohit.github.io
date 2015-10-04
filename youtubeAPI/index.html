@@ -56,12 +56,15 @@
 		<div class="noVideos">
 			<img src="images/novideos.jpg">
 			<p>Sorry,No videos found</p>
-		</div
+		</div>
+	</script>
+	<script type="text/x-handlebars" id="videoPlayer">
+	<div class="player">
+		<iframe width="854" height="480" src="http://www.youtube.com/embed/{{videoId}}?autoplay=1"  frameborder="0" allowfullscreen></iframe>
+	</div>
 	</script>
 	<div class="playerContainer hidden">
-		<div class="player">
-			<iframe width="854" height="480"  frameborder="0" allowfullscreen></iframe>
-		</div>
+			
 	</div>
 	<div class="loader hidden">
 		<img class="loaderImg" src="images/loader.gif">
