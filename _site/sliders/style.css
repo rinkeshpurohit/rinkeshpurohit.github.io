@@ -10,6 +10,33 @@ html{
     box-shadow: 0px 0px 36px 1px rgba(138,150,186,1);
     border-radius: 6px;
 }
+.peakingCat{
+    position: absolute;
+    top: -25px;
+    right: -60px;
+    width: 200px;
+    height: 70px;
+}
+.peakingCat p{
+    display: inline-block;
+    margin-top: 38px;
+}
+.peakingCat a{
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+.peakingCat img{
+    position: absolute;
+}
+.peakingCat:hover{
+    top: 0;
+    right: -40px;
+    transition: 0.3s ease-in;
+}
+.peakingCat:hover a{
+    display: inline-block;
+    margin-top: 40px;
+}
 #first,#second,#third{
 	height: 400px;
     margin: 70px 0;

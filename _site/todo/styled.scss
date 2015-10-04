@@ -1,3 +1,6 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 body{
         min-width: 500px;
         background-color: #e6e6e6;
@@ -8,6 +11,34 @@ h1{
     font-family: sans-serif;
     color: dimgrey;
     font-weight: 100;
+}
+.peakingCat{
+    position: absolute;
+    top: -25px;
+    right: -60px;
+    width: 200px;
+    height: 70px;
+    p{
+        display: inline-block;
+        margin-top: 38px;
+    }
+    a{
+        text-decoration: none;
+        transition: 0.3s ease-in;
+        color: black;
+    }
+    img{
+        position: absolute;
+    }
+}
+.peakingCat:hover{
+    top: 0;
+    right: -40px;
+    transition: 0.3s ease-in;
+    a{
+        display: inline-block;
+        margin-top: 40px;
+    }
 }
 #todo{
 	width:500px;
@@ -96,7 +127,6 @@ input[type=checkbox]{
             top: 50%;
             left: 50px;
             margin-top: -9px;
-            font-family: 'Open Sans', sans-serif;
             text-decoration: inherit;
             color: inherit;
         }

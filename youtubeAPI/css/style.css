@@ -19,6 +19,36 @@ button{
     background-color: rgba(58, 58, 58, 0.71);
     z-index: 10000;
 }
+.peakingCat{
+    position: absolute;
+    top: 20px;
+    right: -60px;
+    width: 200px;
+    height: 70px;
+}
+.peakingCat p{
+    display: inline-block;
+    margin-top: 38px;
+}
+.peakingCat a{
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+.peakingCat img{
+    position: absolute;
+}
+.peakingCat:hover{
+    top: 30px;
+    right: -40px;
+    transition: 0.3s ease-in;
+    z-index: 9999;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+.peakingCat:hover a{
+    display: inline-block;
+    margin-top: 40px;
+}
 .loader{
     position: fixed;
     top: 0;

@@ -1,6 +1,33 @@
 body{
 	text-align: center;
 }
+.peakingCat{
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    width: 200px;
+    height: 70px;
+}
+.peakingCat p{
+    display: inline-block;
+    margin-top: 38px;
+}
+.peakingCat a{
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+.peakingCat img{
+    position: absolute;
+}
+.peakingCat:hover{
+    top: 0;
+    right: 3px;
+    transition: 0.3s ease-in;
+}
+.peakingCat:hover a{
+    display: inline-block;
+    margin-top: 40px;
+}
 ul{
 	list-style: none;
 	text-align: center;

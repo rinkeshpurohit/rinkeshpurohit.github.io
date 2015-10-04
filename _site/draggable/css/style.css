@@ -6,6 +6,35 @@ body{
 	font-family: sans-serif;
 }
 p{margin: 0;}
+.peakingCat{
+    position: absolute;
+    top: -25px;
+    right: -50px;
+    width: 200px;
+    height: 70px;
+    z-index: 999;
+}
+.peakingCat p{
+    display: inline-block;
+    margin-top: 38px;
+}
+.peakingCat a{
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+.peakingCat img{
+    position: absolute;
+}
+.peakingCat:hover{
+    top: 0;
+    right: -40px;
+    transition: 0.3s ease-in;
+}
+.peakingCat:hover a{
+    display: inline-block;
+    margin-top: 40px;
+    color: white;
+}
 #header{
 	position: fixed;
 	width: 100%;
