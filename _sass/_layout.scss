@@ -9,6 +9,11 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 }
+@include media-query($on-palm){
+    .site-header{
+        text-align: center;
+    }
+}
 
 .site-title {
     font-size: 26px;
@@ -23,15 +28,27 @@
         color: $grey-color-dark;
     }
 }
+@include media-query($on-palm){
+    .site-title{ 
+        float: none;
+    }
+}
 .contact{
     display: inline-block;
     float: right;
+    text-align: left;
     p{
         margin-bottom: 0;
         margin-top: 7px;
     }
     p:last-child{
         margin-bottom: 5px;
+    }
+}
+@include media-query($on-palm){
+    .contact{ 
+        float: none;
+        text-align: center;
     }
 }
 .site-nav {
@@ -246,10 +263,6 @@
     }
 }
 
-    .contact{
-        float:right;
-        text-align: left;
-    }
     .projectList{
         margin: 0;
         li{
@@ -262,6 +275,11 @@
             list-style: none;
         }
     }
+    @include media-query($on-palm){
+    .projectList li{ 
+        padding: 15px 0;
+    }
+}
     .container{
         position: relative;
         text-align: center;
