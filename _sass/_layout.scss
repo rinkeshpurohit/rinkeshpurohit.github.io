@@ -263,6 +263,9 @@
     }
 }
 
+.projects{
+    margin-bottom: 30px;
+}
     .projectList{
         margin: 0;
         li{
@@ -286,6 +289,24 @@
         height: 100%;
         padding-top: 10px;
         background-color: #e6e6e6;
+        cursor: pointer;
+    }
+    .template{
+        background-size: cover;
+        background-position: center;
+        h3{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+    }
+    #template1{
+        background-image: url(../images/bnb.png);
+    }
+    #template2{
+        background-image: url(../images/transit.png);
+    }
+    #template3{
+        background-image: url(../images/retrospect.png);
     }
     .content{
         padding: 5px;
